@@ -2,7 +2,7 @@ from flask import jsonify, abort, request
 from . import api
 
 word_list = {
-    'en_US': [
+    'en': [
         'queen', 'hospital', 'basketball', 'cat', 'change', 'snail', 'soup',
         'calendar', 'sad', 'desk', 'guitar', 'home', 'railway', 'zebra',
         'jelly', 'car', 'crow', 'trade', 'bag', 'roll', 'bubble'
