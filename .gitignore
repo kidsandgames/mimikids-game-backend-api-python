@@ -154,4 +154,11 @@ dmypy.json
 # Ignore all local history of files
 .history
 
+### certificates ###
+*.pem
+*.key
+*.crt
+*.cer
+*.priv
+
 # End of https://www.toptal.com/developers/gitignore/api/flask

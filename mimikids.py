@@ -7,4 +7,5 @@ if __name__ == '__main__':
         use_reloader=False,
         use_debugger=False,
         passthrough_errors=True,
-        host='0.0.0.0')
+        host='0.0.0.0',
+        ssl_context=('cert.pem', 'key.pem'))
