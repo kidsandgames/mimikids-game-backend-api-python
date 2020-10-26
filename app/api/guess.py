@@ -1,4 +1,4 @@
-from flask import jsonify, abort, request
+from flask import abort, request
 from . import api
 
 word_list = {
@@ -51,4 +51,4 @@ def get(category):
     if category not in word_list[locale]:
         abort(404, description=f'Category {category} doesn\'t exists')
     words = word_list[locale][category]
-    return jsonify({category: words})
+    return {'words': words}
